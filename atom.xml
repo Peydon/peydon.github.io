@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-16T16:03:13.840Z</updated>
+  <updated>2017-10-17T15:47:46.406Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,31 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2017/10/17/hello-world/"/>
-    <id>http://yoursite.com/2017/10/17/hello-world/</id>
-    <published>2017-10-16T16:03:13.840Z</published>
-    <updated>2017-10-16T16:03:13.840Z</updated>
+    <title>python学习的14张思维导图</title>
+    <link href="http://yoursite.com/2017/10/17/python%E5%AD%A6%E4%B9%A0%E7%9A%8414%E5%BC%A0%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
+    <id>http://yoursite.com/2017/10/17/python学习的14张思维导图/</id>
+    <published>2017-10-17T13:24:57.000Z</published>
+    <updated>2017-10-17T15:47:46.406Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>新文章</title>
-    <link href="http://yoursite.com/2017/10/16/%E6%96%B0%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2017/10/16/新文章/</id>
-    <published>2017-10-16T13:51:54.000Z</published>
-    <updated>2017-10-16T13:51:54.044Z</updated>
+    <content type="html"><![CDATA[<p>本文介绍了python学习过程中的一些基础知识和纲要，利用14张思维导图快速建立python的体系，原文见　<a href="https://woaielf.github.io" target="_blank" rel="external">https://woaielf.github.io</a>.<br><a id="more"></a></p><h2 id="总览"><a href="#总览" class="headerlink" title="总览"></a>总览</h2><p><img src="/images/总览.png" alt=""></p><h2 id="14张思维导图"><a href="#14张思维导图" class="headerlink" title="14张思维导图"></a>14张思维导图</h2><h3 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h3><p><img src="/images/基础知识.png" alt=""><br><img src="/images/基础知识2.png" alt=""></p><h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><p><img src="/images/数据类型.png" alt=""></p><h3 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h3><p><img src="/images/序列.png" alt=""></p><h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><p><img src="/images/字符串.png" alt=""></p><h3 id="列表＆元组"><a href="#列表＆元组" class="headerlink" title="列表＆元组"></a>列表＆元组</h3><p><img src="/images/列表&amp;元组.png" alt=""></p><h3 id="字典＆集合"><a href="#字典＆集合" class="headerlink" title="字典＆集合"></a>字典＆集合</h3><p><img src="/images/字典&amp;集合.png" alt=""></p><h3 id="条件＆循环"><a href="#条件＆循环" class="headerlink" title="条件＆循环"></a>条件＆循环</h3><p><img src="/images/条件&amp;循环.png" alt=""></p><h3 id="文件对象"><a href="#文件对象" class="headerlink" title="文件对象"></a>文件对象</h3><p><img src="/images/文件对象.png" alt=""></p><h3 id="错误＆异常"><a href="#错误＆异常" class="headerlink" title="错误＆异常"></a>错误＆异常</h3><p><img src="/images/错误&amp;异常.png" alt=""></p><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><p><img src="/images/函数.png" alt=""></p><h3 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h3><p><img src="/images/模块.png" alt=""></p><h3 id="面向对象编程"><a href="#面向对象编程" class="headerlink" title="面向对象编程"></a>面向对象编程</h3><p><img src="/images/面向对象编程.png" alt=""></p>]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;本文介绍了python学习过程中的一些基础知识和纲要，利用14张思维导图快速建立python的体系，原文见　&lt;a href=&quot;https://woaielf.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://woaielf.github.io&lt;/a&gt;.&lt;br&gt;
     
     </summary>
     
