@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="Peydon&#39;s blog.">
 <meta property="og:description" content="本系列文章用于记录hadoop的学习心得，主要是理论部分。本专题大部分出自 Hadoop-The Definitive Guide 第四版中的内容，算是对书中知识的总结和凝练。hadoop及相关技术实践部分将会在另外的专题中。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-15T09:34:53.225Z">
+<meta property="og:updated_time" content="2017-11-15T09:41:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hadoop简介">
 <meta name="twitter:description" content="本系列文章用于记录hadoop的学习心得，主要是理论部分。本专题大部分出自 Hadoop-The Definitive Guide 第四版中的内容，算是对书中知识的总结和凝练。hadoop及相关技术实践部分将会在另外的专题中。">
@@ -335,9 +335,9 @@
         <p>本系列文章用于记录hadoop的学习心得，主要是理论部分。本专题大部分出自 <em>Hadoop-The Definitive Guide</em> 第四版中的内容，算是对书中知识的总结和凝练。hadoop及相关技术实践部分将会在另外的专题中。<br><a id="more"></a></p>
 <h2 id="初识hadoop"><a href="#初识hadoop" class="headerlink" title="初识hadoop"></a>初识hadoop</h2><blockquote>
 <p>In pioneer days they used oxen for heavy pulling, and when one ox couldn’t budge a log, they didn’t try to grow a larger ox. We shouldn’t be trying for bigger computers, but for more systems of computers.<br>— Grace Hopper</p>
+</blockquote>
 <h3 id="大数据时代"><a href="#大数据时代" class="headerlink" title="大数据时代"></a>大数据时代</h3><p>我们处于大数据的年代下，数据量的庞大已经超乎我们的想象，而且这个数值每年都在疯狂的增长。<br>事实上，我们虽然有了这么多数据，但是我们却想知道的是这些数据对我们的价值是什么。如果说大数据的存在是好消息，那么坏消息就是我们仍然难以很好的存储和分析这些大数据。</p>
 <h3 id="数据存储和分析"><a href="#数据存储和分析" class="headerlink" title="数据存储和分析"></a>数据存储和分析</h3><p>一个很重要的问题是，存储设备的I/O速度已经跟不上数据存储量了，每一次读取全部数据的时间越来越长。这意味着存储量增大可是设备的速度却难以提升。<br>我们可以很容易想到并行的方法：同时对多个硬盘进行读取，这样就可以提供较快的速度来完成相应的分析任务。但这里有两个问题:</p>
-</blockquote>
 <ul>
 <li>硬件故障<br>机器故障带来的问题是数据的丢失，通常方法是使用备份的方法，系统存储了数据的多个copy，一旦硬件出现故障，仍可以有备份可用，如<a href="https://baike.baidu.com/item/%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97?fromtitle=%E7%8B%AC%E7%AB%8B%E5%86%97%E4%BD%99%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97&amp;fromid=6274825" target="_blank" rel="external">RAID</a> ，但在hadoop的HDFS中将会有点不一样，这在接下来会详细解释。</li>
 <li>数据的合并<br>对于数据分析任务来说，往往我们需要统计分析所有存储设备上的某一类型数据。hadoop在该问题上则提供了一种叫做MapReduce的方法，使用一个可编程的方法，来定义一个job任务，核心是把任务转换成键值对的集合。我们也会详细介绍Mapreduce的原理和功能。</li>
